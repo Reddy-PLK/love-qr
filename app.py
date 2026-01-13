@@ -48,4 +48,4 @@ def generate_qr():
     return send_file("love_qr.png", mimetype="image/png")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
