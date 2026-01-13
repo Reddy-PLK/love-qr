@@ -16,7 +16,7 @@ def love_page():
 
 @app.route("/qr")
 def generate_qr():
-    qr_url = "http://127.0.0.1:5000/love"
+    qr_url = "https://love-qr.onrender.com/love"
 
     qr = qrcode.QRCode(
         version=1,
